@@ -1,7 +1,7 @@
 {
-  "name": "BYTE-MD-LITE",
-  "description": "A lite version of BYTE-MD for TalkDrove Followers",
-  "keywords": ["bot", "node", "baileys", "whatsapp"],
+  "name": "TRABY-MD-LITE",
+  "description": "A lite version of TRABY-MD for CASPER TECH Followers",
+  "keywords": ["bot", "node", "bailey , "whatsapp"],
   "logo": "https://raw.githubusercontent.com/HyHamza/HyHamza/main/Images/BYTE-MD-LITE.jpeg",
   "repository": "https://github.com/HyHamza/BYTE-MD-LITE/",
   "succes_url": "/",
@@ -14,8 +14,8 @@
     },
     "AUTO_READ_STATUS": {
       "description": "Your contact status will be read automatically(type yes to active or no to deactive ; don't write in capital letter)",
-      "value": "no",
-      "required": false
+      "value": "yes",
+      "required": true
     },
     "AUTO_DOWNLOAD_STATUS": {
       "description": "Your contact status will be download automatically and send to you(type yes to active or no to deactive ; don't write in capital letter)",
@@ -29,8 +29,8 @@
     },
     "BOT_NAME": {
       "description": "put A name for your bot",
-      "value": "BYTE-V.lite",
-      "required": false
+      "value": "TRABY.lite",
+      "required": true
     },
     "BOT_MENU_LINKS": {
       "description": "add one or many link for your bot menu ; eg: url1,url2,url3.....",
@@ -59,18 +59,18 @@
     },
     "OWNER_NAME": {
       "desc": "Your Name",
-      "required": false,
-      "value": "TalkDrove"
+      "required": true,
+      "value": "CASPER"
     },
     "CHAT_BOT": {
       "desc": "Put on to allow the bot to chat with people who text you or put off if you don't want the bot to chat with people",
       "required": false,
-      "value": "off"
+      "value": "on"
     },
     "OWNER_NUMBER": {
       "desc": "Your number, don't put '+' and put your area code (e.g., '92')",
       "required": true,
-      "value": "923458017380"
+      "value": "254732982940"
     },
     "WARN_COUNT": {
       "desc": "this is the limit of warn for warning commands",
@@ -84,8 +84,8 @@
     },
     "AUTO_REACTION": {
       "description": "Put on if you want the bot to react to people's messages. It won't react to your messages and those from creator Hamza.",
-      "value": "off",
-      "required": false
+      "value": "on",
+      "required": true
     },
     "PRESENCE": {
       "description": "Mark your presence: 1 to indicate that you are online even if you are not. 2 to indicate that you are currently typing a message. 3 to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
